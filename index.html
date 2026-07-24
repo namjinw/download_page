@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>앱 이름 - 공식 다운로드</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Pretendard Font (Toss-like clean typography) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+    />
+
+    <!-- 분리된 커스텀 CSS 연결 -->
+    <link rel="stylesheet" href="download.css" />
+  </head>
+  <body
+    class="text-gray-900 antialiased selection:bg-blue-100 selection:text-blue-900 pb-20"
+  >
+    <!-- Header -->
+    <header
+      class="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-100"
+    >
+      <div
+        class="max-w-5xl mx-auto px-5 py-4 flex items-center justify-between"
+      >
+        <div class="font-bold text-xl md:text-2xl tracking-tight text-gray-900">
+          동행 앱 설치
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content Wrapper -->
+    <main class="max-w-5xl mx-auto pt-24 px-5">
+      <!-- 히어로 섹션 & 설치 가이드 통합 -->
+      <section class="text-center py-12 md:py-16 flex flex-col items-center">
+        <!-- 앱 아이콘 영역 -->
+
+        <!-- 앱 설치 방법 (다운로드 버튼 위) -->
+        <div
+          class="w-full max-w-4xl mx-auto mb-12 bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100"
+        >
+          <h2
+            class="text-2xl md:text-3xl font-bold mb-8 text-gray-900 tracking-tight text-center"
+          >
+            앱 설치 방법
+          </h2>
+
+          <!-- 6개의 빈 사진 칸 (스마트폰 비율 9:16) -->
+          <!-- 모바일에서는 2열, 웹에서는 3열 그리드로 예쁘게 배치 -->
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+            <div
+              class="aspect-[9/16] bg-gray-50 rounded-2xl border-2 border-dashed border-gray-200 flex flex-col items-center justify-center text-gray-400 hover:bg-gray-100 transition-colors"
+            >
+              <svg
+                class="w-8 h-8 mb-2 text-gray-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+                ></path>
+              </svg>
+              <span class="text-sm md:text-base font-medium">사진 1</span>
+            </div>
+
+            <div
+              class="aspect-[9/16] bg-gray-50 rounded-2xl border-2 border-dashed border-gray-200 flex flex-col items-center justify-center text-gray-400 hover:bg-gray-100 transition-colors"
+            >
+              <svg
+                class="w-8 h-8 mb-2 text-gray-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+                ></path>
+              </svg>
+              <span class="text-sm md:text-base font-medium">사진 2</span>
+            </div>
+
+            <div
+              class="aspect-[9/16] bg-gray-50 rounded-2xl border-2 border-dashed border-gray-200 flex flex-col items-center justify-center text-gray-400 hover:bg-gray-100 transition-colors"
+            >
+              <svg
+                class="w-8 h-8 mb-2 text-gray-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+                ></path>
+              </svg>
+              <span class="text-sm md:text-base font-medium">사진 3</span>
+            </div>
+
+            <div
+              class="aspect-[9/16] bg-gray-50 rounded-2xl border-2 border-dashed border-gray-200 flex flex-col items-center justify-center text-gray-400 hover:bg-gray-100 transition-colors"
+            >
+              <svg
+                class="w-8 h-8 mb-2 text-gray-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+                ></path>
+              </svg>
+              <span class="text-sm md:text-base font-medium">사진 4</span>
+            </div>
+
+            <div
+              class="aspect-[9/16] bg-gray-50 rounded-2xl border-2 border-dashed border-gray-200 flex flex-col items-center justify-center text-gray-400 hover:bg-gray-100 transition-colors"
+            >
+              <svg
+                class="w-8 h-8 mb-2 text-gray-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+                ></path>
+              </svg>
+              <span class="text-sm md:text-base font-medium">사진 5</span>
+            </div>
+
+            <div
+              class="aspect-[9/16] bg-gray-50 rounded-2xl border-2 border-dashed border-gray-200 flex flex-col items-center justify-center text-gray-400 hover:bg-gray-100 transition-colors"
+            >
+              <svg
+                class="w-8 h-8 mb-2 text-gray-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+                ></path>
+              </svg>
+              <span class="text-sm md:text-base font-medium">사진 6</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 메인 다운로드 버튼 -->
+        <a
+          href="#"
+          class="inline-flex items-center justify-center w-full md:w-auto md:min-w-[320px] bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-bold text-lg md:text-xl py-4 px-8 rounded-2xl shadow-lg shadow-blue-200 transition-all duration-200 transform hover:scale-[1.02]"
+        >
+          <svg
+            class="w-6 h-6 md:w-7 md:h-7 mr-2 md:mr-3"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+            ></path>
+          </svg>
+          최신버전 APK 다운로드
+        </a>
+      </section>
+    </main>
+  </body>
+</html>
